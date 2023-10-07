@@ -1,0 +1,45 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all log files
+*.log
+
+# Ignore package directories
+dist/
+build/
+*.egg-info/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore Jupyter Notebook files
+*.ipynb
+
+# Ignore environment related files
+.env
+.venv/
+venv/
+
+# Ignore database files
+*.db
+
+# Ignore API keys
+*.json
+
+# Ignore CSV, Excel files
+*.csv
+*.xls
+*.xlsx
+
+# Ignore all pycache
+**/__pycache__/
+
+# Ignore all .pyc
+**/*.pyc
